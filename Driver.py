@@ -3,7 +3,7 @@ from selenium import webdriver
 Instance = None
 
 def initialize_chrom_driver(): # Initialize the Chrome drive
-    global Instance
+    global Instance # this is the global instance 
     Instance = webdriver.Chrome()
     Instance.implicitly_wait(5)
     return Instance
