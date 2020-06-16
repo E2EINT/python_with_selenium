@@ -18,7 +18,7 @@ def talent_acquisition_guest_service_profile():
     Driver.Instance.find_element_by_xpath("//body//input[3]").send_keys("ganesan@symphonytalent.com")
     Driver.Instance.find_element_by_xpath("//button[contains(text(),'Next')]").click()
 
-    print('$$$$$$$$$$$$ end of the select test $$$$$$$$$$$')
+    print('$$$$$$$$$$$$ end of the select test $$$$$$$$$$$$$$$')
 
 
 

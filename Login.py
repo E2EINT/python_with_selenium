@@ -18,5 +18,6 @@ class LoginPage:
         Driver.Instance.find_element_by_xpath("//input[@id='mat-input-2']").send_keys("Sk1llCheck!")
         Driver.Instance.find_element_by_xpath("//span[contains(text(),'Sign In')]").click()
         Driver.Instance.implicitly_wait(100)
+        print('-------------------------------')
         Driver.Instance.find_element_by_xpath("//span[contains(text(),'Legacy View')]").click()
         print('%%%%%%%%%%%%%% end login %%%%%%%%%%')
