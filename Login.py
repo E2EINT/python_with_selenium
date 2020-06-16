@@ -7,7 +7,7 @@ class LoginPage:
         #Driver.Instance.get("https://gamma.skillcheck.com/onlinetesting/adminPortal/flashassets/login")
         Driver.Instance.get("https://gamma.skillcheck.com/onlinetesting/adminPortal/flashassets/login?returnUrl=%2Fhome%2Fdashboard")
         Driver.Instance.maximize_window()  # to Maximize window
-        print("&&&&&&&&&&&&&&& End of launching Login &&&&&&&&&&&&&")
+        print("&&&&&&&&&&& End of launching Login &&&&&&&&&&&")
 
     @staticmethod
     def Login():
@@ -20,4 +20,4 @@ class LoginPage:
         Driver.Instance.implicitly_wait(100)
         print('-------------------------------')
         Driver.Instance.find_element_by_xpath("//span[contains(text(),'Legacy View')]").click()
-        print('%%%%%%%%%%%%%% end login %%%%%%%%%%')
+        print('%%%%%%%%%%%% end login %%%%%%%%%')
