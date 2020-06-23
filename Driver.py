@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-Instance = None
+Instance: None = None
 
 def initialize_chrom_driver(): # Initialize the Chrome drive
     global Instance # this is the global instance 
