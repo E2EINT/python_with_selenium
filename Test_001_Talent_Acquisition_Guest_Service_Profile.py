@@ -17,6 +17,70 @@ def talent_acquisition_guest_service_profile():
     Driver.Instance.find_element_by_xpath("//body//div//div//div//input[2]").send_keys("Sivaraman")
     Driver.Instance.find_element_by_xpath("//body//input[3]").send_keys("ganesan@symphonytalent.com")
     Driver.Instance.find_element_by_xpath("//button[contains(text(),'Next')]").click()
+    Driver.Instance.find_element_by_xpath("//button[contains(text(),'START')]").click()
+    # sample Question 1
+    Driver.Instance.find_element_by_xpath("//body//button[3]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+    # sample Question 2
+    Driver.Instance.find_element_by_xpath("//body//button[3]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Click on Next button
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'Next')]").click()
+    # Q1
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+    # Q2
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+    # Q3
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+    # Q4
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+    # Q5
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Q6
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Q7
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Q8
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Q9
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Q10
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Q11
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Q12
+    Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+    # Q 13 to 40
+    for i in range(41):
+        # Q13 to 40
+        Driver.Instance.find_element_by_xpath("//body//button[2]").click()
+        Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//button[contains(text(),'ANSWER COMPLETE')]").click()
+
+    # Test Complete page click on Continue Button
+    Driver.Instance.find_element_by_xpath("//html//body//div//div//div//div//div//div//div//button[contains(text(),'CONTINUE')]").click()
+
+    # Test Finished page click on Exit Button
+    Driver.Instance.find_element_by_xpath("//button[contains(text(),'Exit')]").click()
 
     print('$$$$$$$$$$$$ end select test $$$$$$$$$$$')
 
