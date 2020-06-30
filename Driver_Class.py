@@ -1,6 +1,7 @@
 
 from Login import LoginPage
 import Test_001_Talent_Acquisition_Guest_Service_Profile as test1
+import Test_002_Accounting_Financial_Statements as test2
 import Driver
 
 class LoginTest:
@@ -13,13 +14,18 @@ class LoginTest:
         Driver.close_chrom_driver()
     def test1(self):
         test1.talent_acquisition_guest_service_profile()
+    def test2(self):
+        test2.accounting_financial_statements()
 
 login = LoginTest()
 # Loading and Running First Test
-login.setup()
-login.testusercanlogin()
-login.test1()
+##login.setup()
+##login.testusercanlogin()
+##login.test1()
 #login.teardown()
 
 # Loading and Running Second Test
-
+login.setup()
+login.testusercanlogin()
+login.test2()
+#login.teardown()
