@@ -2,7 +2,10 @@
 from Login import LoginPage
 import Test_001_Talent_Acquisition_Guest_Service_Profile as test1
 import Test_002_Accounting_Financial_Statements as test2
-import Test_003_Typing_Test as test3
+import T
+
+
+
 
 import Driver
 
@@ -20,6 +23,8 @@ class LoginTest:
         test2.accounting_financial_statements()
     def test3(self):
         test3.typing_test()
+    def test4(self):
+
 
 login = LoginTest()
 # Loading and Running First Test
