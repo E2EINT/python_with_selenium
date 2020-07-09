@@ -29,8 +29,8 @@ print(driver.find_element_by_xpath("//input[@id='mat-input-0']").is_enabled()) #
 driver.find_element_by_xpath("//input[@id='mat-input-0']").send_keys("qatest")
 print(driver.find_element_by_xpath("//input[@id='mat-input-1']").is_displayed()) # find this elememnt is displayed
 print(driver.find_element_by_xpath("//input[@id='mat-input-1']").is_enabled()) # find this element is eanbled
-driver.find_element_by_xpath("//input[@id='mat-input-1']").send_keys("administrator")
-driver.find_element_by_xpath("//input[@id='mat-input-2']").send_keys("Sk1llCheck!")
+driver.find_element_by_xpath("//input[@id='mat-input-1']").send_keys("")
+driver.find_element_by_xpath("//input[@id='mat-input-2']").send_keys("")
 
 driver.find_element_by_xpath("//span[contains(text(),'Sign In')]").click()
 print(driver.current_url)
