@@ -13,9 +13,9 @@ class LoginPage:
     def Login():
         print(Driver.Instance.title)
         print("%%%%%%%%%%%% Start Login %%%%%%%%%%%")
-        Driver.Instance.find_element_by_xpath("//input[@id='mat-input-0']").send_keys("qatest")
-        Driver.Instance.find_element_by_xpath("//input[@id='mat-input-1']").send_keys("administrator")
-        Driver.Instance.find_element_by_xpath("//input[@id='mat-input-2']").send_keys("Sk1llCheck!")
+        Driver.Instance.find_element_by_xpath("//input[@id='mat-input-0']").send_keys("")
+        Driver.Instance.find_element_by_xpath("//input[@id='mat-input-1']").send_keys("")
+        Driver.Instance.find_element_by_xpath("//input[@id='mat-input-2']").send_keys("")
         Driver.Instance.find_element_by_xpath("//span[contains(text(),'Sign In')]").click()
         Driver.Instance.implicitly_wait(100)
         print('-------------------------------')
